@@ -67,6 +67,7 @@
             // 
             // PestañaCenas
             // 
+            this.PestañaCenas.BackColor = System.Drawing.Color.Linen;
             this.PestañaCenas.Controls.Add(this.checkBox2_Saludable);
             this.PestañaCenas.Controls.Add(this.checkBox1_Lujo);
             this.PestañaCenas.Controls.Add(this.textBoxTotal);
@@ -82,7 +83,7 @@
             this.PestañaCenas.Size = new System.Drawing.Size(270, 251);
             this.PestañaCenas.TabIndex = 0;
             this.PestañaCenas.Text = "Cenas";
-            this.PestañaCenas.UseVisualStyleBackColor = true;
+            this.PestañaCenas.Click += new System.EventHandler(this.PestañaCenas_Click);
             // 
             // checkBox2_Saludable
             // 
@@ -164,6 +165,7 @@
             // 
             // PestañaCumpleaños
             // 
+            this.PestañaCumpleaños.BackColor = System.Drawing.Color.Gainsboro;
             this.PestañaCumpleaños.Controls.Add(this.textBox_Coste_Cumple);
             this.PestañaCumpleaños.Controls.Add(this.label4);
             this.PestañaCumpleaños.Controls.Add(this.textBox_Texto_Tarta);
@@ -179,7 +181,6 @@
             this.PestañaCumpleaños.Size = new System.Drawing.Size(270, 251);
             this.PestañaCumpleaños.TabIndex = 1;
             this.PestañaCumpleaños.Text = "Cumpleaños";
-            this.PestañaCumpleaños.UseVisualStyleBackColor = true;
             // 
             // textBox_Coste_Cumple
             // 

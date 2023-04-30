@@ -139,5 +139,9 @@ namespace Ejercicio25
             return textBox_Texto_Tarta.TextLength* PRECIO_LETRA_TARTA;
         }
 
+        private void PestañaCenas_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
